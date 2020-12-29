@@ -62,6 +62,7 @@
                     android:layout_height="2dp"
                     android:background="#c17336"/>
                 <Button
+                    android:onClick="onTutorialPlayGame"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginRight="50dp"
@@ -96,6 +97,11 @@
             </RelativeLayout>
         </RelativeLayout>
     </LinearLayout>
-
+    <Button
+        android:visibility="gone"
+        android:id="@+id/gone_clearEnventClick"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00FFFCCC"/>
 
 </LinearLayout>
